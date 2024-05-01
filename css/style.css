@@ -4,10 +4,11 @@
 }
 
 body {
-    font-family: "Roboto", "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
     background: #fff;
     max-width: 1440px;
     overflow-x: hidden;
+    color: #434455;
 
     
 }
@@ -22,21 +23,21 @@ a {
 }
 
 .container {
-    width: 1158px;
+    /* width: 1158px; */
     margin: 0 auto;
 }
 
 /* nav-menu */
 
 .header_wrapper {
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
-    padding: 24px 0px;
+    /* padding: 24px 0px; */
 }
 
-nav {
+/* nav {
     display: flex;
-}
+} */
 
 .logo {
     font-family: "Raleway", sans-serif;
@@ -53,7 +54,7 @@ nav {
 }
 
 .nav_list {
-    display: flex;
+    /* display: flex; */
     margin-left: 76px;
 }
 
@@ -75,9 +76,9 @@ nav {
 
 /* address-part */
 
-.contacts_list {
+/* .contacts_list {
     display: flex;
-}
+} */
 
 .contact {
     margin-left: 40px;
@@ -96,45 +97,48 @@ nav {
 
 .promo {
     background: #2e2f42;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; */
 }
 
 .promo-title {
-    padding-top: 188px; 
-    width: 496px;
+    /* padding-top: 188px; 
+    width: 496px; */
     font-weight: 700;
     font-size: 56px;
     line-height: 107%;
     letter-spacing: 0.02em;
-    text-align: center;
+    /* text-align: center; */
     color: #fff;
 }
 
 .promo-button {
     margin-top: 48px;
     margin-bottom: 188px;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.04em;
     color: #fff;
-    border-radius: 4px;
-    border: none;
+    /* border-radius: 4px; */
+    /* border: none; */
     width: 169px;
     height: 56px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    /* box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15); */
     background: #4d5ae5;
+    cursor: pointer;
 }
 
-.promo-button:hover {
+.promo-button:hover,
+.promo-button:focus {
     background: #404bbf;
 }
 
 /* features section  */
 
-.visually-hidden {
+/* .visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -145,17 +149,17 @@ nav {
     clip-path: inset(100%);
     clip: rect(0, 0, 0, 0);
     overflow: hidden;
-  }
+  } */
 
-.features_list {
+/* .features_list {
     padding: 120px 0;
     display: flex;
     justify-content: space-between;
-}
+} */
 
-.features_list-item {
+/* .features_list-item {
     width: 264px;
-}
+} */
 
 .features-title {
     font-weight: 500;
@@ -181,30 +185,30 @@ nav {
 }
 
 .section-title {
-    padding-top: 120px;
+    /* padding-top: 120px; */
     font-weight: 700;
     font-size: 36px;
     line-height: 111%;
     letter-spacing: 0.02em;
-    text-align: center;
+    /* text-align: center; */
     color: #2e2f42;
 }
 
 .team_card-list {
     margin-top: 72px;
-    padding-bottom: 120px;
+    /* padding-bottom: 120px; */
 }
 
-.team_card-list {
+/* .team_card-list {
     display: flex;
     justify-content: space-between;
-}
+} */
 
 .team_card-list-item {
-    border-radius: 0 0 4px 4px;
+    /* border-radius: 0 0 4px 4px;
     width: 264px;
     height: 380px;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08); */
     background: #fff;
 }
 
@@ -232,26 +236,26 @@ nav {
 
 .portfolio_card-list {
     margin-top: 24px;
-    padding-bottom: 120px;
+    /* padding-bottom: 120px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-between; */
 
 }
 
 .portfolio_card-list-item {
     margin-top: 48px;
-    width: 360px;
-    height: 420px;
+    /* width: 360px;
+    height: 420px; */
     background: #fff;
-    border-bottom: 1px solid #e7e9fc;
+    /* border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
-    border-right: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc; */
 }
 
 .portfolio_card-name {
-    padding-top: 32px;
-    padding-left: 16px;
+    /* padding-top: 32px;
+    padding-left: 16px; */
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
@@ -260,8 +264,8 @@ nav {
 }
 
 .portfolio_card-position {
-    padding-top: 8px;
-    padding-left: 16px;
+    /* padding-top: 8px;
+    padding-left: 16px; */
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
@@ -276,16 +280,16 @@ footer {
     background: #2e2f42;
 }
 
-.footer-box {
+/* .footer-box {
     padding: 100px 0;
-}
+} */
 
 .logo-white {
     color: #f4f4fd;
 }
 
 .footer-message {
-    width: 264px;
+    /* width: 264px; */
     margin-top: 16px;
     font-weight: 400;
     font-size: 16px;
