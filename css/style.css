@@ -70,11 +70,16 @@ a {
     color: #2e2f42; 
 }
 
-.nav_list-item-link:hover {
+.nav_list-item-link:hover,
+.nav_list-item-link:focus {
     color: #404bbf;
 }
 
 /* address-part */
+
+address {
+    font-style: normal;
+}
 
 /* .contacts_list {
     display: flex;
@@ -83,13 +88,13 @@ a {
 .contact {
     margin-left: 40px;
     font-size: 16px;
-    font-style: normal;
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #434455;
 }
 
-.contact:hover {
+.contact:hover,
+.contact:focus {
     color: #404bbf;
 }
 
