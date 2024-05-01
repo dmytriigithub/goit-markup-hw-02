@@ -6,7 +6,7 @@
 body {
     font-family: "Roboto", sans-serif;
     background: #fff;
-    max-width: 1440px;
+    /* max-width: 1440px; */
     overflow-x: hidden;
     color: #434455;
 
@@ -77,7 +77,7 @@ a {
 
 /* address-part */
 
-address {
+.address {
     font-style: normal;
 }
 
