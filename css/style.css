@@ -1,6 +1,6 @@
 * {
 	margin: 0;
-	padding: 0;
+	/* padding: 0; */
 }
 
 body {
@@ -109,7 +109,7 @@ a {
     font-size: 56px;
     line-height: 107%;
     letter-spacing: 0.02em;
-    /* text-align: center; */
+    text-align: center;
     color: #fff;
 }
 
@@ -190,7 +190,8 @@ a {
     font-size: 36px;
     line-height: 111%;
     letter-spacing: 0.02em;
-    /* text-align: center; */
+    text-align: center;
+    text-transform: capitalize;
     color: #2e2f42;
 }
 
@@ -276,7 +277,7 @@ a {
 
 /* footer  */
 
-footer {
+.footer {
     background: #2e2f42;
 }
 
