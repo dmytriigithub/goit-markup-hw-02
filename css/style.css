@@ -1,7 +1,7 @@
-* {
+/* * {
 	margin: 0;
-	/* padding: 0; */
-}
+	padding: 0;
+} */
 
 body {
     font-family: "Roboto", sans-serif;
@@ -22,10 +22,10 @@ a {
     text-decoration: none;
 }
 
-.container {
-    /* width: 1158px; */
+/* .container {
+    width: 1158px;
     margin: 0 auto;
-}
+} */
 
 /* nav-menu */
 
@@ -175,7 +175,7 @@ a {
 }
 
 .features-decr {
-    margin-top: 8px;
+    /* margin-top: 8px; */
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
